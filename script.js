@@ -3,12 +3,6 @@ let class2 = ["Liam", "Noah", "Oliver", "Elijah", "William"];
 let class3 = ["James", "Benjamin", "Lucas", "Henry", "Alexander"];
 let class4 = ["Olivia", "Emma", "Ava", "Charlotte", "Sophia"];
 let selectedStudent=[];
-$("#click").click(() => {
-  console.log("clicked");
-});
-$("#btn").click(() => {
-  console.log("clicked");
-});
 $("#classes").change(() => {
   let studentsClass = $("#classes").val();
 
